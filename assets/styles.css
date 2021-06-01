@@ -1,0 +1,167 @@
+body{
+    background-color:#0f121f;
+    background-image: url(/static/purple.png);
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+body *{
+    font-family: Ubuntu;
+}
+
+h1, h2, h3, h4, h5{
+    font-weight: normal;
+    margin: 0;
+}
+
+a, a:hover, a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+div.wrapper h1{
+    font-size: 2.4em;
+}
+
+div.atag{
+    padding: 10px;
+    border: 2px solid #ff79c6;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+}
+
+header{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    padding: 20px 0;
+}
+
+nav{
+    justify-self: end;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav button{
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    font-size: 16px;
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.article{
+    padding-bottom: 0px;
+    padding-top: 17px;
+    padding-left: 17px;
+    border: 1px solid #ff79c6;
+    position: relative;
+    padding-bottom: 40px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.article h2{
+    font-size: 1.2em;
+}
+
+.article .author{
+    padding: 10px;
+    background: #ff79c6;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    color: #0f121f;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.article-detail .article{
+    padding: 0;
+}
+
+.article-detail  .article img{
+    max-width: 100%;
+}
+
+.article-detail  .article h2{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 2em
+}
+
+.article-detail .article h3{
+    text-align: center;
+}
+
+.article-detail  .article p{
+    margin: 10px 20px
+}
+
+.site-form {
+    margin-top: 10px;
+    border: 1px solid #ff79c6;
+    padding: 20px;
+}
+
+.site-form input{
+    display: block;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+}
+#id_thumb{
+    padding:0px
+}
+.site-form textarea{
+    display: block;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+
+a.highlight{
+    border: 1px solid #ff79c6;
+    padding: 10px;
+    border-radius: 4px;
+    color: #ff79c6;
+}
+
+.helptext, .helptext ul{
+    margin: 0 auto 20px;
+    color: #bbb;
+    font-size: 14px;
+    display: block;
+}
+
+.errorlist li{
+    padding: 10px;
+    list-style-type: none;
+    border: 1px solid #FF5722;
+    margin: 10px 0;
+    color: #FF5722
+}
+
+.errorlist{
+    padding: 0;
+}
+
+.site-form input[type="submit"]{
+    background: #ff79c6;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
